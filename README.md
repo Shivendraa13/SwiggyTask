@@ -2,7 +2,7 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/shivendraa13/iOS_Design.git
+    git clone https://github.com/shivendra885/SwiggyTask.git
     cd MPM_iOS_Code
     ```
 
