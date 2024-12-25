@@ -1,0 +1,6 @@
+framework module Pods_Swiggy_ProjectTests {
+  umbrella header "Pods-Swiggy ProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

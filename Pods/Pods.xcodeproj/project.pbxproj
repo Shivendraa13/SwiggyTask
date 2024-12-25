@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0571D7EF39A01EC288761FC041989D00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1EA0DB1CA1E1AF4290822E7F0160B42D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		54E4D8D32CB10675077BE2EE5509A950 /* Pods-Swiggy Project-Swiggy ProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A875E86D27F9022FB8E865EA0B8451E /* Pods-Swiggy Project-Swiggy ProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56436A43DF50EED5D4F3A2ABA4B72115 /* Pods-Swiggy Project-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22007C00518FE6D13E16C9F764F46D33 /* Pods-Swiggy Project-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE7239E5EEABB59F4189834A9CB96AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		72E10C86BADE3647EFFDD00B5D7A006B /* Pods-Swiggy Project-Swiggy ProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C2FCF3D1A216DB32C77C9EEC9E5268 /* Pods-Swiggy Project-Swiggy ProjectUITests-dummy.m */; };
+		9CD5322EBCE608183FDFF1F886259A6C /* Pods-Swiggy Project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAB0B896926ACE3B4CBCF4828C6EBF /* Pods-Swiggy Project-dummy.m */; };
+		EDC3DF0DB0C7E4AB0F0C273102013F17 /* Pods-Swiggy ProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67829F7D2F080226683347F766433580 /* Pods-Swiggy ProjectTests-dummy.m */; };
+		F468D2773C722A11C82AA173EEAF2F96 /* Pods-Swiggy ProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB81FCA168DD7E0A0476B04999D4B08 /* Pods-Swiggy ProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26F9393829264DECDCDCE97B8C209A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1DC816B53009576752DBE5662939979;
+			remoteInfo = "Pods-Swiggy Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DF54CD657C59F0DFD6FEF82ABF7815 /* Pods-Swiggy Project.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swiggy Project.modulemap"; sourceTree = "<group>"; };
+		0550DA622B676D886A7E880E74E7DE1F /* Pods-Swiggy Project-Swiggy ProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiggy Project-Swiggy ProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		0AA59A7B0870A22B52FFFB818E228F61 /* Pods-Swiggy ProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swiggy ProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BB284618D063E49F89C5E1E239AA955 /* Pods-Swiggy ProjectTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Swiggy ProjectTests"; path = Pods_Swiggy_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7DD0910E3BC813C13146F2EA908AD1 /* Pods-Swiggy ProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiggy ProjectTests-Info.plist"; sourceTree = "<group>"; };
+		22007C00518FE6D13E16C9F764F46D33 /* Pods-Swiggy Project-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swiggy Project-umbrella.h"; sourceTree = "<group>"; };
+		2683CD1D9CB4029DBDF6622C6014A1C7 /* Pods-Swiggy Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiggy Project.release.xcconfig"; sourceTree = "<group>"; };
+		3029707966F82CF70C725B543B071B6B /* Pods-Swiggy Project-Swiggy ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiggy Project-Swiggy ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31858C3BB19A3AEBF002E12633738B1F /* Pods-Swiggy Project */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Swiggy Project"; path = Pods_Swiggy_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DAB0B896926ACE3B4CBCF4828C6EBF /* Pods-Swiggy Project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swiggy Project-dummy.m"; sourceTree = "<group>"; };
+		51A1EF4814325788E7296162B4AAD344 /* Pods-Swiggy ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiggy ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		67829F7D2F080226683347F766433580 /* Pods-Swiggy ProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swiggy ProjectTests-dummy.m"; sourceTree = "<group>"; };
+		71E844415693EE3772525E39C7F5F87A /* Pods-Swiggy Project-Swiggy ProjectUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Swiggy Project-Swiggy ProjectUITests"; path = Pods_Swiggy_Project_Swiggy_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73EEB31C3083214B85600F1D95AC4C20 /* Pods-Swiggy Project-Swiggy ProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiggy Project-Swiggy ProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A875E86D27F9022FB8E865EA0B8451E /* Pods-Swiggy Project-Swiggy ProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swiggy Project-Swiggy ProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		8CB81FCA168DD7E0A0476B04999D4B08 /* Pods-Swiggy ProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swiggy ProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		93780218549AB579B91F0C6398280662 /* Pods-Swiggy Project-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiggy Project-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEEABC5924F141476518A5A800BC5936 /* Pods-Swiggy Project-Swiggy ProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swiggy Project-Swiggy ProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1C2FCF3D1A216DB32C77C9EEC9E5268 /* Pods-Swiggy Project-Swiggy ProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swiggy Project-Swiggy ProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		C27B742CD49D44BD529A07BC208687FE /* Pods-Swiggy ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiggy ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C2F449A1D9C67F0CDB5E0416E2226E /* Pods-Swiggy Project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiggy Project-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA0B508236D48B746A9B569722A8ACD5 /* Pods-Swiggy Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiggy Project.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3274DA526DC25444D256CBC4D7E45A /* Pods-Swiggy ProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiggy ProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8E63AE0E448158DACC871D646E5DA68 /* Pods-Swiggy Project-Swiggy ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiggy Project-Swiggy ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCB46B1EAC999ABB1E72018B41A195CE /* Pods-Swiggy ProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swiggy ProjectTests.modulemap"; sourceTree = "<group>"; };
+		E81A7FA2D0250CA22B6F75F7CB54E6FD /* Pods-Swiggy Project-Swiggy ProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swiggy Project-Swiggy ProjectUITests.modulemap"; sourceTree = "<group>"; };
+		F43309A7B90A15B8CC4395668E3F495F /* Pods-Swiggy Project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swiggy Project-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56E042E263C7F2B5790494166728406C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0571D7EF39A01EC288761FC041989D00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD554F26B82232B2788103598F6748BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA0DB1CA1E1AF4290822E7F0160B42D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE730C80F43FDD7B756E9E7D596CF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE7239E5EEABB59F4189834A9CB96AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D734CEAD468F09043B357CB9412849B /* Pods-Swiggy Project-Swiggy ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E81A7FA2D0250CA22B6F75F7CB54E6FD /* Pods-Swiggy Project-Swiggy ProjectUITests.modulemap */,
+				AEEABC5924F141476518A5A800BC5936 /* Pods-Swiggy Project-Swiggy ProjectUITests-acknowledgements.markdown */,
+				73EEB31C3083214B85600F1D95AC4C20 /* Pods-Swiggy Project-Swiggy ProjectUITests-acknowledgements.plist */,
+				C1C2FCF3D1A216DB32C77C9EEC9E5268 /* Pods-Swiggy Project-Swiggy ProjectUITests-dummy.m */,
+				0550DA622B676D886A7E880E74E7DE1F /* Pods-Swiggy Project-Swiggy ProjectUITests-Info.plist */,
+				7A875E86D27F9022FB8E865EA0B8451E /* Pods-Swiggy Project-Swiggy ProjectUITests-umbrella.h */,
+				3029707966F82CF70C725B543B071B6B /* Pods-Swiggy Project-Swiggy ProjectUITests.debug.xcconfig */,
+				D8E63AE0E448158DACC871D646E5DA68 /* Pods-Swiggy Project-Swiggy ProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-Swiggy Project-Swiggy ProjectUITests";
+			path = "Target Support Files/Pods-Swiggy Project-Swiggy ProjectUITests";
+			sourceTree = "<group>";
+		};
+		84C4350D28B27289DEC59DE488A99204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31858C3BB19A3AEBF002E12633738B1F /* Pods-Swiggy Project */,
+				71E844415693EE3772525E39C7F5F87A /* Pods-Swiggy Project-Swiggy ProjectUITests */,
+				0BB284618D063E49F89C5E1E239AA955 /* Pods-Swiggy ProjectTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B702ED69C075CF4C56691C74042A85C /* Pods-Swiggy ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB46B1EAC999ABB1E72018B41A195CE /* Pods-Swiggy ProjectTests.modulemap */,
+				0AA59A7B0870A22B52FFFB818E228F61 /* Pods-Swiggy ProjectTests-acknowledgements.markdown */,
+				CD3274DA526DC25444D256CBC4D7E45A /* Pods-Swiggy ProjectTests-acknowledgements.plist */,
+				67829F7D2F080226683347F766433580 /* Pods-Swiggy ProjectTests-dummy.m */,
+				1D7DD0910E3BC813C13146F2EA908AD1 /* Pods-Swiggy ProjectTests-Info.plist */,
+				8CB81FCA168DD7E0A0476B04999D4B08 /* Pods-Swiggy ProjectTests-umbrella.h */,
+				C27B742CD49D44BD529A07BC208687FE /* Pods-Swiggy ProjectTests.debug.xcconfig */,
+				51A1EF4814325788E7296162B4AAD344 /* Pods-Swiggy ProjectTests.release.xcconfig */,
+			);
+			name = "Pods-Swiggy ProjectTests";
+			path = "Target Support Files/Pods-Swiggy ProjectTests";
+			sourceTree = "<group>";
+		};
+		C341BD61EDCFBCBF93294F0E922E6B21 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C42AC0933D7719B0B458C291BF918625 /* Pods-Swiggy Project */,
+				6D734CEAD468F09043B357CB9412849B /* Pods-Swiggy Project-Swiggy ProjectUITests */,
+				8B702ED69C075CF4C56691C74042A85C /* Pods-Swiggy ProjectTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C42AC0933D7719B0B458C291BF918625 /* Pods-Swiggy Project */ = {
+			isa = PBXGroup;
+			children = (
+				02DF54CD657C59F0DFD6FEF82ABF7815 /* Pods-Swiggy Project.modulemap */,
+				F43309A7B90A15B8CC4395668E3F495F /* Pods-Swiggy Project-acknowledgements.markdown */,
+				C9C2F449A1D9C67F0CDB5E0416E2226E /* Pods-Swiggy Project-acknowledgements.plist */,
+				49DAB0B896926ACE3B4CBCF4828C6EBF /* Pods-Swiggy Project-dummy.m */,
+				93780218549AB579B91F0C6398280662 /* Pods-Swiggy Project-Info.plist */,
+				22007C00518FE6D13E16C9F764F46D33 /* Pods-Swiggy Project-umbrella.h */,
+				CA0B508236D48B746A9B569722A8ACD5 /* Pods-Swiggy Project.debug.xcconfig */,
+				2683CD1D9CB4029DBDF6622C6014A1C7 /* Pods-Swiggy Project.release.xcconfig */,
+			);
+			name = "Pods-Swiggy Project";
+			path = "Target Support Files/Pods-Swiggy Project";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				84C4350D28B27289DEC59DE488A99204 /* Products */,
+				C341BD61EDCFBCBF93294F0E922E6B21 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		376B6D0231CFD024D31787AB4BFD19E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E4D8D32CB10675077BE2EE5509A950 /* Pods-Swiggy Project-Swiggy ProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66EA1F66E7ED005DBEF614775AAF1E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F468D2773C722A11C82AA173EEAF2F96 /* Pods-Swiggy ProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA30AF9F231B47E399AADA55BFD8CBDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56436A43DF50EED5D4F3A2ABA4B72115 /* Pods-Swiggy Project-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F5921425C0F2CA4875A3E7983A9D19C /* Pods-Swiggy ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B351F200087BB392E980BCFDDA8BC7D /* Build configuration list for PBXNativeTarget "Pods-Swiggy ProjectTests" */;
+			buildPhases = (
+				B66EA1F66E7ED005DBEF614775AAF1E3 /* Headers */,
+				55A980AC9C42A300A934BA2C22D7EEC5 /* Sources */,
+				56E042E263C7F2B5790494166728406C /* Frameworks */,
+				78F5687F397868725D76AAA1FE7D4C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107C382A2AF40F2629A3A864E32B2C6B /* PBXTargetDependency */,
+			);
+			name = "Pods-Swiggy ProjectTests";
+			productName = Pods_Swiggy_ProjectTests;
+			productReference = 0BB284618D063E49F89C5E1E239AA955 /* Pods-Swiggy ProjectTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1DC816B53009576752DBE5662939979 /* Pods-Swiggy Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41DF8F5441E07676621B1BE0C49FEEB9 /* Build configuration list for PBXNativeTarget "Pods-Swiggy Project" */;
+			buildPhases = (
+				FA30AF9F231B47E399AADA55BFD8CBDE /* Headers */,
+				836B470EA3D2D86ACF8344C65C3ADEC5 /* Sources */,
+				BD554F26B82232B2788103598F6748BC /* Frameworks */,
+				BB0CDF41F43C01B6013FEB861AB0D7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Swiggy Project";
+			productName = Pods_Swiggy_Project;
+			productReference = 31858C3BB19A3AEBF002E12633738B1F /* Pods-Swiggy Project */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6B0E7778A431660EAA6A003E14DE7B6 /* Pods-Swiggy Project-Swiggy ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E4DF5B904361435AC37DB773A64C11 /* Build configuration list for PBXNativeTarget "Pods-Swiggy Project-Swiggy ProjectUITests" */;
+			buildPhases = (
+				376B6D0231CFD024D31787AB4BFD19E1 /* Headers */,
+				FC84862E4396DFFD1C7896FE5023B226 /* Sources */,
+				BDE730C80F43FDD7B756E9E7D596CF7C /* Frameworks */,
+				BBDCD21C435D1949C9ABC3607B64C18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Swiggy Project-Swiggy ProjectUITests";
+			productName = Pods_Swiggy_Project_Swiggy_ProjectUITests;
+			productReference = 71E844415693EE3772525E39C7F5F87A /* Pods-Swiggy Project-Swiggy ProjectUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 84C4350D28B27289DEC59DE488A99204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1DC816B53009576752DBE5662939979 /* Pods-Swiggy Project */,
+				D6B0E7778A431660EAA6A003E14DE7B6 /* Pods-Swiggy Project-Swiggy ProjectUITests */,
+				2F5921425C0F2CA4875A3E7983A9D19C /* Pods-Swiggy ProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78F5687F397868725D76AAA1FE7D4C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0CDF41F43C01B6013FEB861AB0D7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDCD21C435D1949C9ABC3607B64C18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A980AC9C42A300A934BA2C22D7EEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3DF0DB0C7E4AB0F0C273102013F17 /* Pods-Swiggy ProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836B470EA3D2D86ACF8344C65C3ADEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD5322EBCE608183FDFF1F886259A6C /* Pods-Swiggy Project-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC84862E4396DFFD1C7896FE5023B226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E10C86BADE3647EFFDD00B5D7A006B /* Pods-Swiggy Project-Swiggy ProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107C382A2AF40F2629A3A864E32B2C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Swiggy Project";
+			target = A1DC816B53009576752DBE5662939979 /* Pods-Swiggy Project */;
+			targetProxy = E26F9393829264DECDCDCE97B8C209A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E277EA8915C00EF12F638BE32C53C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2683CD1D9CB4029DBDF6622C6014A1C7 /* Pods-Swiggy Project.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swiggy Project/Pods-Swiggy Project-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swiggy Project/Pods-Swiggy Project.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44553862D8DA84B945FFE1D920DA07D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E63AE0E448158DACC871D646E5DA68 /* Pods-Swiggy Project-Swiggy ProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swiggy Project-Swiggy ProjectUITests/Pods-Swiggy Project-Swiggy ProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swiggy Project-Swiggy ProjectUITests/Pods-Swiggy Project-Swiggy ProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		780CC667BE1A25D8B2571F8F00C7AABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A1EF4814325788E7296162B4AAD344 /* Pods-Swiggy ProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swiggy ProjectTests/Pods-Swiggy ProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swiggy ProjectTests/Pods-Swiggy ProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A093C8DED7F663DAC970E262FABC5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3029707966F82CF70C725B543B071B6B /* Pods-Swiggy Project-Swiggy ProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swiggy Project-Swiggy ProjectUITests/Pods-Swiggy Project-Swiggy ProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swiggy Project-Swiggy ProjectUITests/Pods-Swiggy Project-Swiggy ProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D641043E8BEEE39E1249897794B85223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0B508236D48B746A9B569722A8ACD5 /* Pods-Swiggy Project.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swiggy Project/Pods-Swiggy Project-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swiggy Project/Pods-Swiggy Project.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F57209288DA333C6801E84BBB07C42C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27B742CD49D44BD529A07BC208687FE /* Pods-Swiggy ProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swiggy ProjectTests/Pods-Swiggy ProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swiggy ProjectTests/Pods-Swiggy ProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41DF8F5441E07676621B1BE0C49FEEB9 /* Build configuration list for PBXNativeTarget "Pods-Swiggy Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D641043E8BEEE39E1249897794B85223 /* Debug */,
+				3E277EA8915C00EF12F638BE32C53C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E4DF5B904361435AC37DB773A64C11 /* Build configuration list for PBXNativeTarget "Pods-Swiggy Project-Swiggy ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A093C8DED7F663DAC970E262FABC5CF /* Debug */,
+				44553862D8DA84B945FFE1D920DA07D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B351F200087BB392E980BCFDDA8BC7D /* Build configuration list for PBXNativeTarget "Pods-Swiggy ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57209288DA333C6801E84BBB07C42C7 /* Debug */,
+				780CC667BE1A25D8B2571F8F00C7AABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
